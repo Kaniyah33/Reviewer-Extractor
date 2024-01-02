@@ -4,8 +4,7 @@ This **Reviewer Extractor** code is from my Fall 2023 NASA internship: Expanding
 
 ## What it does
 
-The Reviewer Extractor uses a csv file (either pre-loaded or the user can upload their own), and can filter what ouput is displayed based
-on what the user searches and which specific column they want to search in. The user can then save this filtered csv file directly to their computer.
+The Reviewer Extractor allows the user to search through the Expertise Finder (version 2) outputs. It is typically a csv file (one is included in this repository) or the user can upload their own. The GUI filters the input dataframe and displays only raws that include the searched "words" under the specified column. The user can then save this filtered dataframe into a file directly to their computer.
 
 The code will allow the user to search for words in the following columns:
 - Input Author
@@ -14,7 +13,7 @@ The code will allow the user to search for words in the following columns:
 - Abstract
 - Panels
 
-While there is a file already referenced within the code, if you choose to use a custom csv file, it **MUST** contain one of the columns listed above.
+While the repository contains a test file, if you choose to use a custom csv file, it **MUST** contain **ALL** the columns listed above (even if the column is empty), in order to propoerl display and properly search.
 
 ## What is required
 ### Imports
